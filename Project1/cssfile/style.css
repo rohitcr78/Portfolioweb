@@ -1,0 +1,164 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  /* overflow: hidden; */
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+header{
+  padding: 15px 0px;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+/* nav bar styling */
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* nav HOME AND contac about styling */
+nav ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+/* anchore tag styling */
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+ul li{
+  list-style: none;
+}
+nav ul li:hover{
+  background-color: rgb(7, 7, 7);
+}
+nav ul li a:hover{
+  color: aliceblue;
+}
+
+.LOGO{
+  font-weight: bold;
+  font-size: 60px;
+  padding: 10px;
+  /* margin-right: 100px; */
+}
+input{
+  padding: 4px 8px;
+  margin-top: 2px;
+   
+}
+.search{
+  display: flex;
+  gap: 10px;
+  margin-top: 2px;
+}
+button{
+  height: 35px;
+  width: 100px;
+  background: #000;
+  color: aliceblue;
+  font-weight: bold;
+}
+button:hover{
+  background: linear-gradient(220.55deg, #FFC328 0%, #E20000 100%);
+  color: aliceblue;
+}
+.main-section{
+  display: flex;
+  align-items: center;
+}
+.left-section{
+  width:60%;
+  padding: 2px 20px;
+  
+}
+.left-section h1 span{
+  background-image: linear-gradient(to right, #43e97b 0%, #43e97b 100%);
+  /* background-clip: text; */
+  
+  font-size: 80px;
+  /* background-color: rgba(252, 249, 249, 0.985); */
+  
+}
+.left-section p span{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(10, 10, 10, 0.947) ;
+}
+.right-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  gap: 30px;
+  
+}
+.right-sec-btn {
+  margin-bottom: 100px;
+
+
+}
+.right-section img{
+  height:300px ;
+  width: 300px;
+  border-radius: 200px;
+  object-fit: cover;
+}
+ h1{
+  font-size: 40px;
+}
+.left-section p{
+  font-size: 20px;
+  font-weight: bold;
+}
+/* footer  */
+footer{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  justify-content: ;
+  
+}
+.main-section{
+  margin-left: 100px;
+}
+/* .footer-link{
+  display: flex;
+  flex-direction: row;
+} */
+
+ a i{
+  align-self: center;
+  font-size: 50px;
+  padding: 10px;
+  
+
+}
+/* footer padding */
+footer p{
+  padding-top: 20px;
+}
+/* Icons margin */
+.icon{
+  margin-left: 290px;
+}
+
+
+
+  
+  
